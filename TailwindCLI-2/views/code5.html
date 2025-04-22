@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../src/output.css"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <nav class="flex justify-around bg-white text-black p-5  dark:bg-gray-800 dark:text-white">
+        <div class="loo">LOGO</div>
+        <ul class="flex gap-10">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+        <button class="cursor-pointer" onclick="toggleDarkMode()"">Dark mode</button>
+    </nav>
+
+    <script>
+        function toggleDarkMode() {
+            document.documentElement.classList.toggle('dark')
+
+        }
+    </script>
+</body>
+
+</html>
