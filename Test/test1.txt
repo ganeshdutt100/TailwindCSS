@@ -1,0 +1,91 @@
+
+
+ 📝 Test Paper: HTML, CSS & Tailwind CSS
+
+
+ 🧠 Section A: Multiple Choice Questions (1 mark each)
+
+1. What does HTML stand for?  
+   A) Hyper Text Markup Language  
+   B) High Text Marking Language  
+   C) Hyperlink and Text Markup Language  
+   D) Home Tool Markup Language  
+
+2. Which tag is used to create a hyperlink in HTML?  
+   A) <link>  
+   B) <href>  
+   C) <a>  
+   D) <hyperlink>
+
+3. Which property is used in CSS to change the text color?  
+   A) fontcolor  
+   B) textcolor  
+   C) color  
+   D) fontstyle
+
+4. Tailwind CSS is a:  
+   A) CSS preprocessor  
+   B) Utilityfirst CSS framework  
+   C) JavaScript library  
+   D) Bootstrap extension
+
+5. Which Tailwind class adds padding of 4 units?  
+   A) pd4  
+   B) padding4  
+   C) p4  
+   D) pad4
+
+6. What is the correct way to create an unordered list in HTML?  
+   A) <ul><li>Item</li></ul>  
+   B) <ol><li>Item</li></ol>  
+   C) <list><li>Item</li></list>  
+   D) <u><li>Item</li></u>
+
+7. Which tag is used for the largest heading in HTML?  
+   A) <head>  
+   B) <h1>  
+   C) <heading>  
+   D) <h6>
+
+8. How do you apply a background color using Tailwind?  
+   A) bgcolorred  
+   B) backgroundred  
+   C) bgred500  
+   D) colorbgred
+
+9. CSS stands for:  
+   A) Computer Style Sheet  
+   B) Creative Style Sheet  
+   C) Cascading Style Sheet  
+   D) Colorful Style Sheet
+
+10. Which of these is a Tailwind class for making text bold?  
+   A) textbold  
+   B) fwbold  
+   C) boldtext  
+   D) fontbold
+
+
+
+ 📚 Section B: Definition/Short Answer Questions (2 marks each)
+
+1. Define HTML and its purpose.
+2. What is the use of the <div> tag?
+3. Explain the difference between id and class in CSS.
+4. What is an external CSS? Give an example.
+5. Define responsive design.
+6. What is Tailwind CSS and how is it different from Bootstrap?
+7. Define pseudoclass in CSS with an example.
+8. What does the flex class do in Tailwind CSS?
+9. Define semantic tags in HTML and give two examples.
+10. What is the use of the hover: prefix in Tailwind?
+
+
+
+ 💻 Section C: Project (5 marks)
+
+Q. Create a simple Landing Page using HTML, CSS and Tailwind CSS. It should include:
+ A header with navigation
+ A hero section with a title and button
+ A features section with 3 cards
+ A footer
