@@ -1,0 +1,41 @@
+
+ ✅ Practical Questions:
+
+1. Check Even or Odd  
+   Write a program to check whether a number entered by the user is even or odd.
+
+2. Find the Greatest of Three Numbers  
+   Accept three numbers from the user and display the greatest among them.
+
+3. Check for Leap Year  
+   Write a program that checks if a year entered by the user is a leap year or not.
+
+4. Simple Calculator using if-else  
+   Input two numbers and an operator (`+`, `-`, ``, `/`) and perform the operation using if-else statements.
+
+5. Grade Checker  
+   Take marks as input and display grades using `if-else-if`:
+   - 90-100: A  
+   - 75-89: B  
+   - 60-74: C  
+   - 40-59: D  
+   - <40: Fail  
+
+6. Check Whether a Character is Vowel or Consonant  
+   Input a character and check if it's a vowel (`a, e, i, o, u`) or consonant.
+
+7. Find Maximum Using Nested if  
+   Write a program using nested `if` statements to find the largest of three numbers.
+
+8. Traffic Light System (Using switch)  
+   Input a color (`Red`, `Yellow`, `Green`) and show a message:  
+   - Red → Stop  
+   - Yellow → Wait  
+   - Green → Go  
+
+9. Weekday Name (Using switch)  
+   Enter a number (1 to 7) and display the corresponding day name using `switch`.
+
+10. Check Eligibility to Vote  
+   Input the age of a person and check if they are eligible to vote (18+).
+
