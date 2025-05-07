@@ -30,18 +30,33 @@
 
 // this.nitesh  = nitesh
 
-const person1 = {
-  name: "Ganesh",
-};
-const person2 = {
-  name: "Rahul",
-};
+// const person1 = {
+//   name: "Ganesh",
+// };
+// const person2 = {
+//   name: "Rahul",
+// };
 
-function greet(city, country) {
-  console.log(
-    "Hello my name is " + this.name + " I am from " + city + " in " + country
-  );
-}
+// function greet(city, country) {
+//   console.log(
+//     "Hello my name is " + this.name + " I am from " + city + " in " + country
+//   );
+// }
 
-greet.call(person1, "Noida", "India");
-greet.call(person2, "Delhi", "India");
+// greet.call(person1, "Noida", "India");
+// greet.call(person2, "Delhi", "India");
+
+// apply()------------------------------
+
+// function.apply(thisArg,[arr])
+
+// function greet(name) {
+//   console.log("hello my name is " + name);
+// }
+// greet.apply(null, ["xyz"]);
+let arr = [1, 5, 2, 45, 7, 3, 8, 4, 9];
+
+let max = Math.max.apply(this, arr);
+let min = Math.min.apply(this, arr);
+console.log(max);
+console.log(min);
