@@ -54,9 +54,29 @@
 //   console.log("hello my name is " + name);
 // }
 // greet.apply(null, ["xyz"]);
-let arr = [1, 5, 2, 45, 7, 3, 8, 4, 9];
+// let arr = [1, 5, 2, 45, 7, 3, 8, 4, 9];
 
-let max = Math.max.apply(this, arr);
-let min = Math.min.apply(this, arr);
-console.log(max);
-console.log(min);
+// let max = Math.max.apply(this, arr);
+// let min = Math.min.apply(this, arr);
+// console.log(max);
+// console.log(min);
+
+function intro(hobby, profession) {
+  console.log(
+    "My name is " +
+      this.name +
+      " i work as a " +
+      profession +
+      " and I Enjoy " +
+      hobby
+  );
+}
+const user1 = {
+  name: "Ganesh Dutt",
+};
+const user2 = {
+  name: "Krishna Dutt",
+};
+
+intro.apply(user1, ["coding", "Frontend Developer"]);
+intro.apply(user2, ["MMA", "Frontend Developer"]);
