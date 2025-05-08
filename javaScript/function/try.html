@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .textName {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="textName">loading...</h1>
+
+    <input class="input" type="text">
+    <input class="input1" type="text">
+    <button onclick="fun()">Click me </button>
+    <script>
+        function fun() {
+            let name = document.querySelector(".textName")
+            let input = document.querySelector(".input").value
+            let input1 = document.querySelector(".input1").value
+            alert(Number(input) - Number(input1))
+
+
+            name.innerText = "Ganesh Dutt"
+        }
+
+
+    </script>
+</body>
+
+</html>
+
+<!-- click = Event  -->
+<!-- onclick = Event Handler  -->
