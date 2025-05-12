@@ -51,4 +51,10 @@ console.log(count);
 // 2              4521       2        452.1
 // 3              452       3        45.2
 // 4              45       4        4.5
-// 5              4       5        .0
+// 5              4       5        .4
+
+// Question 5: Reverse Digits
+// Problem:
+// Write a while loop to reverse the digits of a number.
+
+// For example, input = 1234, output = 4321
