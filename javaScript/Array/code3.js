@@ -5,9 +5,9 @@
 // n-1
 // console.log(number);
 
-// mutator methods:
+// ============== mutator methods:=================
 
-let arrName = ["mango", "apple", "banana", "orange"];
+let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
 // let arrName = [1, 7, 4, 3, 8, 9, 2, 6, 5];
 // let arrName = [1, 7, 10, 13, 18, 9, 2, 6, 5]; // - task
 
@@ -22,5 +22,13 @@ let arrName = ["mango", "apple", "banana", "orange"];
 
 // splice(start, deleteCount, item1, item2, item3);
 // arrName.splice(1, 3, "grapes", "kiwi");
+// copyWithin(target , stating , end)
+// console.log(arrName);
 
-console.log(arrName);
+// arrName.copyWithin(2, 0, 4);
+// "apple", "banana", "apple", "banana", "orange"
+// target - 2 (orange)
+// start - 0(apple , banana , orange)
+// end   - 4
+
+// console.log(arrName);
