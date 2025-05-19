@@ -7,7 +7,7 @@
 
 // ============== mutator methods:=================
 
-let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
+// let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
 // let arrName = [1, 7, 4, 3, 8, 9, 2, 6, 5];
 // let arrName = [1, 7, 10, 13, 18, 9, 2, 6, 5]; // - task
 
@@ -32,3 +32,24 @@ let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
 // end   - 4
 
 // console.log(arrName);
+
+// ============== Accessor Methods: ========================
+// let arrName1 = ["apple", "banana", "grapes"];
+// let arrName2 = ["orange", "kiwi"];
+
+// let arrName3 = arrName1.concat(arrName2);
+// console.log(arrName3);
+
+let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
+
+// let output = arrName.includes("apple");
+// let output = arrName.indexOf("apple");
+// let output = arrName.join(" / ");
+// let output = arrName.indexOf("apple");
+// let output = arrName.lastIndexOf("apple");
+// let output = arrName.indexOf("apple", 1);
+// let output = arrName.slice(1, 4);
+let output = arrName.toString();
+//
+
+console.log(output);
