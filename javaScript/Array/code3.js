@@ -40,16 +40,15 @@
 // let arrName3 = arrName1.concat(arrName2);
 // console.log(arrName3);
 
-let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
+// let arrName = ["apple", "banana", "orange", "kiwi", "grapes"];
 
 // let output = arrName.includes("apple");
 // let output = arrName.indexOf("apple");
 // let output = arrName.join(" / ");
-// let output = arrName.indexOf("apple");
 // let output = arrName.lastIndexOf("apple");
 // let output = arrName.indexOf("apple", 1);
 // let output = arrName.slice(1, 4);
-let output = arrName.toString();
+// let output = arrName.toString();
 //
 
-console.log(output);
+// console.log(output);
