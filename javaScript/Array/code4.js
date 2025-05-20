@@ -11,10 +11,22 @@ let arrName = [45, 3, 23, 57, 4, 12, 33, 9, 78, 45];
 // let output = arrName.findIndex((num) => num % 2 == 0);
 // let output = arrName.forEach((value) => console.log(value - 34));
 
-console.log(output);
+// console.log(output);
 
 // let sum = 0;
 // for (let value of arrName) {
 //   sum += value; //   sum = sum + value;
 // }
 // console.log(sum);
+
+// let obj = {
+//   length: 3,
+//   0: "apple",
+//   1: "banana",
+//   2: "orange",
+// };
+
+// let newArray = Array.of("apple", "banana", "orange");
+
+// let output = Array.from(obj);
+// console.log(newArray);
