@@ -17,6 +17,8 @@
     <p class="para">Loading...</p>
     <p class="para">Loading...</p>
     <p class="para">Loading...</p>
+
+    <div class="emptyDiv"></div>
     <!-- <p id="paraID">Loading...</p> -->
     <button>click me </button>
 
@@ -43,6 +45,15 @@
         //     console.log(para.length);
 
         // })
+        let emptyDiv = document.querySelector('.emptyDiv');
+        let newPara = document.createElement('p');
+
+        newPara.innerHTML = "This is a new paragraph";
+        // console.log(newPara);
+        emptyDiv.appendChild(newPara);
+
+
+
     </script>
 </body>
 
