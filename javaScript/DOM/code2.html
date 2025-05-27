@@ -34,7 +34,7 @@
 
             const li = document.createElement('li');
 
-            li.textContent = taskText;
+            li.innerHTML = `<span>${taskText}</span > <button onclick="deleteTask(this)" >❌</button>`;
 
 
             taskList.appendChild(li);
@@ -43,9 +43,23 @@
 
 
         }
+        function deleteTask(button) {
+            const li = button.parentElement;
+            li.remove();
+        }
+
+        // let a = "Ganesh "
+        // document.writeln("Hello " + a + '<br>');  // Hello Ganesh
+        // document.writeln(`Hello ${ a } How are you `);  // Hello Ganesh
+        // console.log();  // Hello Ganesh
+
+
     </script>
 
-
+    <!-- <li>
+        <span></span>
+        <button></button>
+    </li> -->
 </body>
 
 </html>
