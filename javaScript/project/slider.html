@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider {
+            width: 500px;
+            height: 400px;
+            margin: auto;
+        }
+
+
+
+        .slider img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .controls {
+            text-align: center;
+
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid black;
+
+            border-radius: 20px;
+            margin-left: 20px;
+
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+
+        <img id="slide"
+            src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740"
+            alt="">
+
+
+        <div class="controls">
+            <button onclick="prev()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const images = [
+            "https://img.freepik.com/premium-vector/programming-code-icon-abstract-robot-holding-programming-code-symbol-hand-coding-background_127544-1269.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740",
+            "https://img.freepik.com/premium-vector/programming-code-coding-hacker-sign-programming-code-icon-made-with-binary-code-wireframe-hand_127544-3400.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740",
+            "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740",
+            "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740",
+            "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?ga=GA1.1.361418861.1748170143&semt=ais_items_boosted&w=740"
+        ];
+
+        let index = 0;
+        const slide = document.getElementById("slide");
+        function showImage(i) {
+            let newIndex = 5
+
+        }
+
+        function next() { }
+        function prev() { }
+    </script>
+</body>
+
+</html>
+
+<!-- newIndex = 4;
+-4 < 0 -->
